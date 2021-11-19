@@ -19,7 +19,7 @@ html {
 
 .container{
     max-width: 375px;
-    min-height: 90vh;
+    min-height: 80vh;
     margin: 3% auto;
     display: flex;
     flex-direction: column;
@@ -115,4 +115,10 @@ a{
 
 #cancel-order, #proceed-payment, #cancel{
     font-size: 0.9rem;
+}
+
+.call-to-action-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
