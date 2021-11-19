@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html { 
+    background: url(images/pattern-background-desktop.svg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container{
+    max-width: 375px;
+    min-height: 90vh;
+    margin: 3% auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 2rem;
+}
+
+h1{
+    color: #2B3761;
+    margin-top: 1.2rem;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.container .hero-image{
+    width: 100%;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.container p{
+    color: #727FA1;
+    max-width: 80%;
+    line-height: 1.5;
+    margin: 3% auto;
+    font-weight: 900;
+}
+
+.plan-container{
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    margin: 3% auto;
+    background-color: rgba(114, 127, 161, 0.05);
+    font-size: 1em;
+    width: 80%;
+    padding: 0.8rem;
+}
+
+.plan-container p{
+    margin-left: 4%;
+}
+
+.plan-container span{
+    color: #2B3761;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+
+#change{
+    text-decoration: underline;
+    color: #3F2FC3;
+    font-weight: bolder;
+    transition: all 0.3s;
+}
+
+#change:hover{
+    text-decoration: none;
+    color: black;
+}
+
+#proceed-payment{
+    padding: 1rem 2rem;
+    background-color: #3F2FC3;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    color: #fff;
+    width: 80%;
+    margin: 3% auto;
+    border-radius: 1rem;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#proceed-payment:hover{
+    background-color: #727FA1;
+}
+
+#cancel-order{
+    margin-bottom: 1.3rem;
+    font-weight: bolder;
+    color: #727FA1;
+    transition: 0.3s;
+}
+
+#cancel-order:hover{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#cancel-order, #proceed-payment, #cancel{
+    font-size: 0.9rem;
+}
